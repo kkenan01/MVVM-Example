@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MVVM Example</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="greeting_message">Hello %s. Welcome to this MVVM Example. Start typing into the field bellow to see the magic happen</string>
+</resources>
