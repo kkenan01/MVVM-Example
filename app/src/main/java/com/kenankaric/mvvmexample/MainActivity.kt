@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
     private fun setupUI() {
         /**
          * We set initial user message to be rendered on the screen.
-         * We do this because our string [greeting_message] contains placeholder for the username.
+         * We do this because our string [greeting_message] contains placeholder for the name.
          *
          * Therefore we need to provide format arguments to [getString] method
          * (we provide a const value [EMPTY_NAME]).
@@ -77,7 +77,7 @@ class MainActivity : AppCompatActivity() {
      * which we're observing/listening above.
      */
     private fun updateGreetingMessage() {
-        binding.etUsername.addTextChangedListener { text: Editable? ->
+        binding.etName.addTextChangedListener { text: Editable? ->
             viewModel.updateName(text.toString())
         }
     }

@@ -29,7 +29,7 @@ class MainViewModel: ViewModel() {
      *
      * Value is dispatched on the main thread.
      */
-    fun updateName(username: String) {
-        _name.postValue(username)
+    fun updateName(newName: String) {
+        _name.postValue(newName)
     }
 }
